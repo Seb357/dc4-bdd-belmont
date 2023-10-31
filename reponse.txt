@@ -5,7 +5,7 @@
 3 - SELECT * FROM officer
     WHERE country_id = 5
 
-4 - 
+4 - SELECT COUNT(*) FROM entity
 
 5 - 
 
