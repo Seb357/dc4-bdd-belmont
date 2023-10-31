@@ -8,7 +8,7 @@ SELECT *
 FROM officer
 WHERE country_id = 5;
 
-SELECT COUNT(*) 
+SELECT COUNT(name) 
 FROM entity;
 
 SELECT * 
