@@ -2,7 +2,8 @@
 
 2 - SELECT name FROM entity
 
-3 - 
+3 - SELECT * FROM officer
+    WHERE country_id = 5
 
 4 - 
 
