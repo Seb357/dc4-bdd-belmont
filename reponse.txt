@@ -29,5 +29,7 @@ SELECT e.name AS EntityName, s.source AS SourceName
 FROM entity e
 JOIN source s ON e.source = s.id;
 
-10 - 
+SELECT name 
+FROM officer
+WHERE url IS NULL OR url = '';
 
