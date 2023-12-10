@@ -23,7 +23,7 @@ SELECT e.name, c.country
 FROM entity e, country c, address a
 WHERE e.id_address = a.id_address AND a.countries = c.code
 
-8 - 
+8 - aaaaaaa
 
 9 - 
 
