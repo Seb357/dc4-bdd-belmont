@@ -23,7 +23,12 @@ SELECT e.name, c.country
 FROM entity e, country c, address a
 WHERE e.id_address = a.id_address AND a.countries = c.code
 
-8 - 
+SELECT o.name AS OfficerName, i.name AS IntermediaryName
+FROM officer o
+JOIN assoc_officer_entity aoe ON o.id = aoe.officer
+JOIN entity e ON aoe.entity = e.id
+JOIN assoc_inter_entity aie ON e.id = aie.entity
+JOIN intermediary i ON aie.inter = i.id 
 
 SELECT e.name AS EntityName, s.source AS SourceName
 FROM entity e
