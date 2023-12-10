@@ -25,7 +25,9 @@ WHERE e.id_address = a.id_address AND a.countries = c.code
 
 8 - 
 
-9 - 
+SELECT e.name AS EntityName, s.source AS SourceName
+FROM entity e
+JOIN source s ON e.source = s.id;
 
 10 - 
 
